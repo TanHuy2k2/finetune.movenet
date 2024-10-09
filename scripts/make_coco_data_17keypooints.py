@@ -264,9 +264,9 @@ if __name__ == '__main__':
     output_img_dir = "./finetune.movenet/data/cropped/imgs"
 
 
-    img_dir = "./finetune.movenet/data/val"
+    img_dir = "./finetune.movenet/data/valid"
     labels_path = "./finetune.movenet/data/annotations/person_keypoints_val.json"
-    output_name = './finetune.movenet/data/cropped/val2017.json'
+    output_name = './finetune.movenet/data/cropped/val.json'
     main(img_dir, labels_path, output_name, output_img_dir)
 
     

@@ -10,7 +10,7 @@ cfg = {
     "random_seed":42,
     "cfg_verbose":True,
 
-    "save_dir": "output/",
+    "save_dir": "finetune.movenet/output/",
 
     "num_classes": 17,
     "width_mult":1.0,
